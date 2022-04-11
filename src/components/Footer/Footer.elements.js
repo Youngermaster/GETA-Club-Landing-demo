@@ -3,7 +3,7 @@ import { FaGlasses } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 export const FooterContainer = styled.div`
-  background-color: #131419;
+  background-color: #05C7F2;
   padding: 4rem 0 2rem 0;
   display: flex;
   flex-direction: column;

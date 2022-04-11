@@ -1,10 +1,10 @@
 import styled from 'styled-components';
-import { FaGlasses } from 'react-icons/fa';
+import { FaGamepad } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import { Container } from '../../globalStyles';
 
 export const Nav = styled.nav`
-  background: #131419;
+  background: #05C7F2;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -33,7 +33,7 @@ export const NavLogo = styled(Link)`
   align-items: center;
 `;
 
-export const NavIcon = styled(FaGlasses)`
+export const NavIcon = styled(FaGamepad)`
   margin-right: 0.5rem;
 `;
 
@@ -67,7 +67,7 @@ export const NavMenu = styled.ul`
     left: ${({ click }) => (click ? 0 : '-100%')};
     opacity: 1;
     transition: all 0.5s ease;
-    background: #131419;
+    background: #05C7F2;
   }
 `;
 
@@ -76,7 +76,7 @@ export const NavItem = styled.li`
   border-bottom: 2px solid transparent;
 
   &:hover {
-    border-bottom: 2px solid #4447E2;
+    border-bottom: 2px solid #F20FA3;
   }
 
   @media screen and (max-width: 960px) {
@@ -113,7 +113,7 @@ export const NavLinks = styled(Link)`
     display: table;
 
     &:hover {
-      color: #4447E2;
+      color: #F20FA3;
       transition: all 0.3s ease;
     }
   }

@@ -69,20 +69,15 @@ function Navbar() {
                   Compete
                 </NavLinks>
               </NavItem>
-              <NavItem>
-                <NavLinks to='/blog' onClick={closeMobileMenu}>
-                  Win
-                </NavLinks>
-              </NavItem>
               <NavItemBtn>
                 {button ? (
                   <NavBtnLink to='/sign-up'>
-                    <Button primary>SIGN UP</Button>
+                    <Button primary>WIN</Button>
                   </NavBtnLink>
                 ) : (
                   <NavBtnLink to='/sign-up'>
                     <Button onClick={closeMobileMenu} fontBig primary>
-                      SIGN UP
+                      WIN
                     </Button>
                   </NavBtnLink>
                 )}

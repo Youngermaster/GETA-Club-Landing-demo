@@ -6,7 +6,7 @@ export const PricingSection = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: #4447E2;
+  background: #F20FA3;
 `;
 
 export const PricingWrapper = styled.div`
@@ -44,7 +44,7 @@ export const PricingContainer = styled.div`
 `;
 
 export const PricingCard = styled(Link)`
-  background: #131419;
+  background: #05C7F2;
   box-shadow: 0 6px 20px #101522;
   width: 280px;
   height: 500px;
@@ -58,7 +58,7 @@ export const PricingCard = styled(Link)`
   &:hover {
     transform: scale(1.06);
     transition: all 0.3s ease-out;
-    color: #131419;
+    color: #05C7F2;
   }
 
   @media screen and (max-width: 960px) {
@@ -103,7 +103,7 @@ export const PricingCardFeatures = styled.ul`
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: #a9b3c1;
+  color: #0D0D0D;
 `;
 
 export const PricingCardFeature = styled.li`
